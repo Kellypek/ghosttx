@@ -14,7 +14,7 @@ GhostTx is a high-performance analytics dashboard designed for **Arbitrum Stylus
 - **Charts**: Recharts (High-fidelity telemetry visualization)
 - **Language**: Rust (Targeting Stylus WASM for backend logic)
 
-📂 Repository Structure
+## 📂 Repository Structure
 ├── contract/      # Arbitrum Stylus smart contracts (Rust)
 └── frontend/      # React-based diagnostic dashboard
 
@@ -23,9 +23,7 @@ GhostTx is a high-performance analytics dashboard designed for **Arbitrum Stylus
 2. Navigate to the frontend directory: `cd frontend`
 3. Install dependencies: `npm install`
 4. Start development server: `npm run dev`
-
-Contract (Stylus)
-The smart contracts are located in the /contract directory. You will need the Stylus Rust SDK to compile and deploy.
+Contract (Stylus):The smart contracts are located in the /contract directory. You will need the Stylus Rust SDK to compile and deploy.
 
 ## 🛡 Disclaimer
 This is a diagnostic tool designed for the Arbitrum Stylus ecosystem. Always verify transaction signatures before approving.

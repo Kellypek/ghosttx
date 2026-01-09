@@ -16,6 +16,7 @@ GhostTx is a high-performance analytics dashboard designed for **Arbitrum Stylus
 
 ## 📂 Repository Structure
 ├── contract/      # Arbitrum Stylus smart contracts (Rust)
+
 └── frontend/      # React-based diagnostic dashboard
 
 ## 📦 Getting Started
@@ -23,6 +24,7 @@ GhostTx is a high-performance analytics dashboard designed for **Arbitrum Stylus
 2. Navigate to the frontend directory: `cd frontend`
 3. Install dependencies: `npm install`
 4. Start development server: `npm run dev`
+
 Contract (Stylus):The smart contracts are located in the /contract directory. You will need the Stylus Rust SDK to compile and deploy.
 
 ## 🛡 Disclaimer

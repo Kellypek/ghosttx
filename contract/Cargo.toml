@@ -1,0 +1,19 @@
+[package]
+name = "ghosttx-contract"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "staticlib"]
+
+[dependencies]
+stylus-sdk = "=0.3.0"
+mini-alloc = "0.6.1"
+
+[patch.crates-io]
+ruint = { git = "https://github.com/recmo/uint", tag = "v1.11.0" }
+
+[profile.release]
+lto = true
+opt-level = "s"
+panic = "abort"

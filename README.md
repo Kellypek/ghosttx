@@ -20,7 +20,7 @@ GhostTx is a high-performance analytics dashboard designed for **Arbitrum Stylus
 └── frontend/      # React-based diagnostic dashboard
 
 ## 📦 Getting Started
-1. Clone the repo: `git clone https://github.com/YOUR_USERNAME/ghosttx.git`
+1. Clone the repo: `git clone https://github.com/Kellypek/ghosttx.git`
 2. Navigate to the frontend directory: `cd frontend`
 3. Install dependencies: `npm install`
 4. Start development server: `npm run dev`
